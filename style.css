@@ -3,10 +3,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100rem;
 }
-
-
 
 
 .calaculator{
@@ -15,6 +13,7 @@ body{
     max-width: 500px;
     border-radius: 15px;
     overflow: hidden;
+    height: 50 px;
 }
 #display{
     width: 100%;
@@ -44,4 +43,11 @@ button{
     background-color:brown;
     font-weight: bold;
     cursor: pointer;
+}
+button:hover{
+    background-color: rgb(99, 99, 137);
+
+}
+button:active{
+    background-color:yellow ;
 }
